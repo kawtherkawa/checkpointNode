@@ -1,0 +1,20 @@
+{
+  "name": "checkpoint-node",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kawther",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "generate-password": "^1.7.0",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
